@@ -1,0 +1,118 @@
+/*Email3 Styles*/
+
+body {
+	color: #fff;
+	background: #efefef;
+}
+.wrapper {
+	width: 75%;
+	height: 1375px;
+	background: #313131;
+	margin: auto;
+}
+ul#social {
+	display: flex;
+	margin: auto;
+	margin-left: 33%;
+}
+ul#social li {
+	opacity: 0.95;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+div#top-bottom {
+	position: relative;
+	top: 65px;
+	background: #313131;
+	height: 70px;
+	opacity: 0.8;
+}
+div#top-banner {
+	background-image: url("../img/sea.jpg");
+	height: 495px;
+	padding-top: 50px;
+}
+div#logo {
+	font-size: 30pt;
+	color: #fff;
+	font-weight: bold;
+}
+div#feat-box {
+	background: #313131;
+	opacity: 0.5;
+	height: 310px;
+	width: 600px;
+	text-align: center;
+	margin-left: 21%;
+	border-radius: 3%;
+}
+div#feat-box h2 {
+	color: #fff;
+	font-weight: bold;
+}
+div#bottom-banner, div.mid_box  {
+	height: 175px;
+	border: none;
+}
+div#bottom-banner {
+	padding-top: 20px;
+	padding-left: 10px;
+}
+img.midbox_pic {
+	height: 175px;
+	width: 175px;
+	padding-left: 0;
+}
+div.mid_box {
+	padding-right: 10px;
+	padding-top: 5px;
+}
+div.small_box {
+	height: 200px;
+	border: 4px solid #313131;
+	margin-right: ;
+	margin-bottom: 10px;
+	border-radius: 3%;
+}
+button.mid_btn {
+	float: right;
+}
+div#bottom_box1 {
+	background-image: url("../img/lady.jpg");
+}
+div#bottom_box3 {
+	background-image: url("../img/cam3.jpg");
+}
+div#bottom_box2 {
+	background-image: url("../img/butterfly.jpg");
+}
+div#bottom_box4 {
+	background-image: url("../img/flowers.jpg");
+}
+div.small_box_desc {
+	height: 50px;
+	background: #424242;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	position: relative;
+	top: 142px;
+	opacity: 0.8;
+}
+div#closing {
+	height: 60px;
+	border: none;
+	background: #313131;
+	margin-bottom: -12px;
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+	font-size: 15pt;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
